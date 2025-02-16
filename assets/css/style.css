@@ -2,16 +2,30 @@
     margin: 0;
     padding: 0;
 }
-        #Inicio {
+body {
+    font-family:"Zain", "Sour Gummy", "Raleway", sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+nav li a {
+    font-size:large;
+}       
+
+#Inicio {
             background-image: url(/assets/img/EmptyName7.jpg);
             background-repeat: no-repeat;
             background-size:cover;
-            background-position: top;
-            
-            
-
+            background-position: top; 
         }
         
+
+        header{
+    font-family:"Atma", "Sour Gummy", "Raleway", sans-serif;
+}
+
+main {
+    font-family:"Overlock", 'Courier New', Courier, monospace;
+}
         /* Footer estilos para el footer*/
         /* Footer */
         footer {
