@@ -1,0 +1,53 @@
+
+        
+        
+        /* Footer estilos para el footer*/
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px; /* Espacio entre el contenido y el footer */
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: #ecf0f1;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Íconos de redes sociales */
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            font-size: 24px;
+            margin: 0 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            transform: scale(1.2);
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            footer {
+                padding: 20px;
+            }
+
+            .social-icons a {
+                font-size: 20px;
+            }
+        }
